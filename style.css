@@ -204,4 +204,7 @@ html {
     .section {
         padding: 0 300px;
     }
+    .header {
+        padding: 0 100px;
+    }
 }
