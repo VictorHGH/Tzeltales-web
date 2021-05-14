@@ -174,7 +174,7 @@ html {
 }
 
 .main-page-img {
-    height: 30%;
+    height: 50%;
     width: auto;
     max-height: 300px;
 }
@@ -198,4 +198,10 @@ html {
 .paragraphs {
     text-align: justify;
     color: var(--color-brown)
+}
+
+@media screen and (min-width: 950px) {
+    .section {
+        padding: 0 300px;
+    }
 }
